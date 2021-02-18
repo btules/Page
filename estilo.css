@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #383a49;
+}
+
+nav ul li img{
+  width: 30px;
+  position: relative;
+  margin-top: -7px;
+  margin-right: 48px;
+  background-color: rgba(141, 238, 225, 0.548)
+}
+
+nav ul {
+    display: inline-flex;
+    margin: 50px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    color:rgb(0, 247, 255);
+    cursor: pointer;
+}
+
+.field-singUp {
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    text-decoration: none;
+    cursor: pointer;
+    border: transparent solid 2px;
+    border-radius: 20px;
+    background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+    background-origin: border-box;
+    background-clip: content-box,border-box;
+    transition: transform 0.5s;
+}
+.field-singUp:hover {
+    transform: translateY(-3px);
+}
+
+.field-singUp span {
+    display: block;
+    padding: 8px 22px;
+}
+
+.field-singUp a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.field-singUp a:hover {
+    color: #86caf1;
+}
+
+.content-field {
+    width: 80%;
+    height: 70%;
+    top:25%;
+    left: 130px;
+    position: absolute;
+    color:#fff;
+}
+
+.content-text {
+    width: 50%;
+    float: left;
+}
+
+.content-text h1 {
+    font-size: 43px;
+    width: 640px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.content-text p {
+    width: 650px;
+    font-size: 15px;
+    margin: 30px 0 30px 40px;
+    line-height: 25px;
+    color: #fff;
+}
+
+.content-banner {
+    width: 50%;
+    float: right;
+}
+
+.content-banner img {
+    width: 100%;
+    height: 400px;
+    margin-top: -20px;
+    padding-left: 100px;
+}

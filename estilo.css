@@ -14,30 +14,54 @@
     background-color: #383a49;
 }
 
-nav ul li img{
-  width: 90px;
-  position: relative;
-  margin-top: -7px;
-  margin-right: 18px;
-  
+nav img{
+  width: 170px;
+  cursor: pointer;
+ 
 }
 
-nav ul {
-    display: inline-flex;
-    margin: 40px;
+nav {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
 }
-
 nav ul li {
     list-style: none;
+    display: inline-block;
     margin: 0 20px;
-    color:rgb(0, 247, 255);
-    cursor: pointer;
+    position: relative;
 }
+
+nav ul li a {
+    text-decoration: none;
+    color:#86caf1;
+}
+
+nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #fd00da;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+
 
 .field-singUp {
     position: absolute;
     right: 80px;
-    top: 40px;
+    top: 60px;
     text-decoration: none;
     cursor: pointer;
     border: transparent solid 2px;

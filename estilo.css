@@ -15,16 +15,16 @@
 }
 
 nav ul li img{
-  width: 30px;
+  width: 90px;
   position: relative;
   margin-top: -7px;
-  margin-right: 48px;
+  margin-right: 18px;
   
 }
 
 nav ul {
     display: inline-flex;
-    margin: 50px;
+    margin: 40px;
 }
 
 nav ul li {

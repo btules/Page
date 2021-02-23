@@ -25,6 +25,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: start;
+    
 }
 nav ul li {
     list-style: none;
@@ -65,7 +66,7 @@ nav ul li:hover::after {
     background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
     background-origin: border-box;
     background-clip: content-box,border-box;
-    transition: transform 0.5s;
+    transition: transform 0.5s linear;
 }
 .field-singUp:hover {
     transform: translateY(-3px);
@@ -84,6 +85,10 @@ nav ul li:hover::after {
 
 .field-singUp a:hover {
     color: #86caf1;
+}
+
+.btnMenu {
+    display: none;
 }
 
 /*  Conteudo  */
@@ -126,7 +131,7 @@ nav ul li:hover::after {
     background-image: linear-gradient(#3b3b3b85, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
     background-origin: border-box;
     background-clip: content-box,border-box;
-    transition: transform 0.5s;
+    transition: transform 0.5s linear;
 
     text-align: center;
 }
@@ -167,4 +172,36 @@ nav ul li:hover::after {
     
 }
 
+@media (max-width: 850px){
+    .menu {
+        display: none;
+    }
+    .btnMenu {
+        display: inline-block;
+        background-color: #fff;
+        background-image: url("./img/iconmonstr-menu-thin.svg");
+        background-repeat: no-repeat;
+        background-position-x: 5px;
+        padding: 15px 20px;
+        margin: 20px;
+        cursor: pointer;
+    }
 
+    .menuOpen {
+        display: flex;
+        flex-direction: column;
+        min-width: 170px;
+        z-index: 1;
+      
+       
+    }
+}
+
+@media (max-width: 800px){
+    .content-banner{
+        display: none;
+    }
+    .content-text {
+        width: 100%;
+    }
+}

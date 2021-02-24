@@ -80,13 +80,13 @@
 /* media query */
 
 @media (max-width: 900px) {
-    .container-field{;
+    .container-field{
         flex-direction: column;
     }
 
     .content-banner {
         order: -1;
-        width: 60%;
+        width: 100%;
     }
 
     .container-field .content-text {
@@ -98,6 +98,6 @@
     }
 
     .container-field .content-text h1 {
-        width: 60%;
+        font-size: 2.5rem;
     }
 }

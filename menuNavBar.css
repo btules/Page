@@ -1,0 +1,54 @@
+.container-menu {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container-menu img {
+    max-width: 160px;
+    width: 30%;
+    cursor: pointer;
+}
+
+.container-menu .container-item-menu {
+    width: 90%;
+    position: relative;
+}
+
+.container-menu .container-item-menu ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 1.7rem;
+}
+
+.container-menu .container-item-menu ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);   
+}
+
+
+
+.container-menu .field-singUp{
+    border: 1px solid rgb(35, 1, 58);
+    border-radius: 20px;
+    display: flex;
+    background-color: rgb(144, 0, 255);
+}
+
+.container-menu .field-singUp a {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.7rem;
+    margin: 1rem;
+    width: 8rem;
+    height: 2.5rem;
+    transition: transform 0.5s linear;
+}
+
+.container-menu .field-singUp:hover {
+    transform: translateY(-3px);
+}
+

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -8,32 +8,48 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="menuNavBar.css">
+    <link rel="stylesheet" href="style.css">
     <title>Page</title>
 </head>
 
 <body>
     <div class="container">
-        <nav>
+        <header class="container-menu">
             <img src="./img/diamond.png" alt="logo da page">
-            <a href="#menu" class="btnMenu btnMenu_open"></a>
-            <ul class="menu">
-                <li><a  href="#">Home</a></li>
-                <li><a  href="#">Sobre</a></li>
-                <li><a  href="#">Produto</a></li>
-                <li><a  href="#">Contato</a></li>
-            </ul>
-            <div class="field-singUp"><a href="http://"><span>Sing Up</span></span></a></div>
-        </nav>
-    <!-- Conteudo -->
-        <div class="content-field">
-            <div class="content-banner">
-                <img src="./img/black.png" alt="content-banner">
+            <nav class="container-item-menu">
+                <a href="#menu" class="btnMenu btnMenu_open"></a>
+                <ul class="menu">
+                    <li><a  href="#">Home</a></li>
+                    <li><a  href="#">Sobre</a></li>
+                    <li><a  href="#">Produto</a></li>
+                    <li><a  href="#">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="field-singUp">
+                <a href="#">
+                    <span>Sing Up</span>
+                </a>
             </div>
+        </header>
+
+
+    <!-- Conteudo -->
+        <div class="container-field">
+            
             <div class="content-text">
                 <h1>Ofertas imperdíveis</h1>
                 <p>Todos os produtos com preços <strong>Arrasadores</strong>.<br> Você não vai perder essa oferta! Vai?<br>
                     Venha conferir e garantir melhores produtos para o seu lar, <br>a preços <strong>incrivéis</strong>.</p>
-                    <div class="btn"><a href="#">Venha conferir</a></div>
+                    
+                    <div class="btn">
+                        <a href="#">Venha conferir</a>
+                    </div>
+            </div>
+
+            <div class="content-banner">
+                <img src="./img/black.png" alt="content-banner">
             </div>
 
         </div>

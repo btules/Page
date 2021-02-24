@@ -1,0 +1,78 @@
+/* Navbar */
+
+nav img{
+    width: 170px;
+    cursor: pointer;
+   
+  }
+  
+  nav {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      
+  }
+  nav ul li {
+      list-style: none;
+      display: inline-block;
+      margin: 0 20px;
+      position: relative;
+  }
+  
+  nav ul li a {
+      text-decoration: none;
+      color:#86caf1;
+  }
+  
+  nav ul li::after{
+      content: '';
+      height: 3px;
+      width: 0;
+      background: #fd00da;
+      left: 0;
+      bottom: -10px;
+      transition: 0.5s;
+  
+  }
+  
+  nav ul li:hover::after {
+      width: 100%;
+  }
+  
+  .field-singUp {
+      right: 80px;
+      top: 60px;
+      text-decoration: none;
+      cursor: pointer;
+      border: transparent solid 2px;
+      border-radius: 20px;
+      background-image: linear-gradient(#42455a, #42455a), radial-gradient(circle at top left, #fd00da, #19d7f8);
+      background-origin: border-box;
+      background-clip: content-box,border-box;
+      transition: transform 0.5s linear;
+  }
+  .field-singUp:hover {
+      transform: translateY(-3px);
+  }
+  
+  .field-singUp span {
+      display: block;
+      padding: 8px 22px;
+  }
+  
+  .field-singUp a {
+      text-decoration: none;
+      color: #fff;
+      
+  }
+  
+  .field-singUp a:hover {
+      color: #86caf1;
+  }
+  
+  .btnMenu {
+      display: none;
+  }
+  
